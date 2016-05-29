@@ -1,1 +1,3 @@
-print("Hello, world");
+from datetime import datetime
+
+print(datetime.now())
