@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="fibo.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HelloPython.Console.py" />
   </ItemGroup>
   <PropertyGroup>
