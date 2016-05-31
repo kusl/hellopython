@@ -1,6 +1,8 @@
 import fibo
+import os
+print("Hello, and welcome to " + os.name)
 while True:
-    print("Please enter an integer greater than one")
+    print("Please enter an integer greater than one and the computer will attempt to give you the fibonacci sequence up to that number.")
     user_input = input()
     try: 
         int_user_input = int(user_input)
