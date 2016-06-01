@@ -1,6 +1,7 @@
 import fibo
 import os
-print("Hello, and welcome to " + os.name)
+import multiprocessing
+print("Hello, and welcome to " + os.name + " on this computer with " + str(multiprocessing.cpu_count()) + " processor cores/threads")
 while True:
     print("Please enter an integer greater than one and the computer will attempt to give you the fibonacci sequence up to that number.")
     user_input = input()
