@@ -3,6 +3,8 @@ import os
 import multiprocessing
 import requests
 print("Hello, and welcome to " + os.name + " on this computer with " + str(multiprocessing.cpu_count()) + " processor cores/threads")
+page = requests.get('https://shareeverythingwith.me/')
+print(page)
 while True:
     print("Please enter an integer greater than one and the computer will attempt to give the sum of all numbers in the fibonacci sequence up to that number.")
     user_input = input()
